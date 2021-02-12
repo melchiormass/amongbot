@@ -9,9 +9,8 @@ Then, go to the bot section and create a new one for yourself.
 
 Take the token and copy it to the bot.js file and replace the 'YOUR_DISCORD_BOT_TOKEN' by the token value you got.
 
-Start your node.js application by doing this commands in order :
+Go to the folder of the script and start your node.js application by doing this commands in order :
 ```
-npm init
-npm install discord.js
+npm install 
 node bot.js
 ```
