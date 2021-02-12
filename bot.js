@@ -15,16 +15,23 @@ client.on('message', (message) => {
         members.forEach(member =>{
             member.voice.setMute(true);
             member.voice.setDeaf(true);
-            message.channel.send('Les joueurs ont été mutés !')
+            while (booleanFunc == True){
+                message.channel.send('Les joueurs ont été mutés !');
+                booleanFunc = false;
+            }
         });
     }else if (message.content == '!unmuteall'){
         members.forEach(member =>{
             member.voice.setMute(false);
             member.voice.setDeaf(false);
-            message.channel.send('Les joueurs ont été démutés !')
+            while(booleanFunc == True){
+                message.channel.send('Les joueurs ont été démutés !');
+                booleanFunc = false;
+            }
         });
     }
 });
 
+booleanFunc = True;
 
-client.login('YOUR_DISCORD_BOT_TOKEN');
+client.login('ODA5ODY4MjUwMDI4MTc5NTU2.YCbWlQ.uX6JvtVMdnBjbd6na9C-qgcmBrE');
