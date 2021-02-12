@@ -14,5 +14,4 @@ Start your node.js application by doing this commands in order :
 npm init
 npm install discord.js
 node bot.js
-
 ```
