@@ -15,7 +15,7 @@ client.on('message', (message) => {
         members.forEach(member =>{
             member.voice.setMute(true);
             member.voice.setDeaf(true);
-            while (booleanFunc == True){
+            while (booleanFunc == true){
                 message.channel.send('Les joueurs ont été mutés !');
                 booleanFunc = false;
             }
@@ -24,7 +24,7 @@ client.on('message', (message) => {
         members.forEach(member =>{
             member.voice.setMute(false);
             member.voice.setDeaf(false);
-            while(booleanFunc == True){
+            while(booleanFunc == true){
                 message.channel.send('Les joueurs ont été démutés !');
                 booleanFunc = false;
             }
@@ -32,6 +32,6 @@ client.on('message', (message) => {
     }
 });
 
-booleanFunc = True;
+booleanFunc = true;
 
 client.login('YOUR_DISCORD_BOT_TOKEN');
