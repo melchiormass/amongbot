@@ -12,5 +12,5 @@ Take the token and copy it to the bot.js file and replace the 'YOUR_DISCORD_BOT_
 Go to the folder of the script and start your node.js application by doing this commands in order :
 ```
 npm install 
-node bot.js
+npm start
 ```
